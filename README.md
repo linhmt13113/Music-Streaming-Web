@@ -14,6 +14,24 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+structure
+music-streaming-website/
+├── public/
+│ ├── index.html
+│ └── manifest.json
+├── src/
+│ ├── assets/ # Static files (e.g., images, fonts)
+│ ├── components/ # Reusable React components (e.g., Navbar, Player, Sidebar)
+│ ├── pages/ # Page components (e.g., Home, Playlist, Library)
+│ ├── services/ # API and logic to fetch music data, user info, etc.
+│ ├── utils/ # Utility functions (e.g., helper functions, formatters)
+│ ├── App.js # Main app component
+│ ├── index.js # App entry point
+│ ├── App.css # Global styles
+│ ├── index.css # Entry point styles
+├── package.json
+└── README.md
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
